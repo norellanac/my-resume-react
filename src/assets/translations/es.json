@@ -1,12 +1,118 @@
 {
-    "hello": "Hola",
-    "home": "Inicio",
-    "resume": "Currículum",
-    "pokemon": "Pokémon",
-    "greeting": "Hola, soy [Tu Nombre]. ¡Bienvenido a mi sitio web personal!",
-    "about": "Sobre mí",
-    "experience": "Experiencia",
-    "education": "Educación",
-    "skills": "Habilidades",
-    "contact": "Contacto"
-  }
+  "hello": "Hola",
+  "home": "Inicio",
+  "resume": "Currículum",
+  "pokemon": "Pokémon",
+  "greeting": "Hola, soy [Tu Nombre]. ¡Bienvenido a mi sitio web personal!",
+  "about": "Sobre mí",
+  "experience-title": "Educacion & Aprendizaje",
+  "skills-title": "Habilidades",
+  "experience": "Experiencia",
+  "education": [
+    {
+      "school": "Escuela de Diseño y Tecnología de Copenhague",
+      "title": "Máster Universitario en Interacción Persona-Ordenador",
+      "start_date": "2015 ",
+      "end_date": "2016"
+    },
+    {
+      "school": "Escuela de Diseño y Tecnología de Copenhague",
+      "title": "Licenciatura en Artes",
+      "start_date": "2011",
+      "end_date": "2015"
+    },
+    {
+      "school": "Escuela de Diseño y Tecnología de Copenhague",
+      "title": "Licenciatura en Artes",
+      "start_date": "2011",
+      "end_date": "2015"
+    },
+    {
+      "school": "Laboratorio de Diseño Inc",
+      "title": "Clase magistral de liderazgo en diseño",
+      "start_date": "Mar 2020",
+      "end_date": ""
+    },
+    {
+      "school": "Trydesignlab.com",
+      "title": "UX: Diseño de Interacción",
+      "start_date": "Dec 2017 ",
+      "end_date": ""
+    },
+    {
+      "school": "Udacity.com, curso online de Google",
+      "title": "Especialización en Diseño UX",
+      "start_date": "Aug 2016",
+      "end_date": ""
+    },
+    {
+      "school": "Laboratorio de Diseño Inc.",
+      "title": "Fundamentos de la marca",
+      "start_date": "Nov 2014",
+      "end_date": ""
+    }
+  ],
+  "skills": [
+    {
+      "title": "Análisis de Negocios",
+      "level": 3
+    },
+    {
+      "title": "Investigación de UX",
+      "level": 1
+    },
+    {
+      "title": "Pruebas y validación de usuarios",
+      "level": 1
+    },
+    {
+      "title": "Mapeo del recorrido del cliente",
+      "level": 1
+    },
+    {
+      "title": "Arquitectura de la Información",
+      "level": 1
+    },
+    {
+      "title": "Wireframing de baja y alta fidelidad",
+      "level": 1
+    },
+    {
+      "title": "Prototipado",
+      "level": 1
+    },
+    {
+      "title": "Diseño de interacción",
+      "level": 1
+    },
+    {
+      "title": "Diseño Visual",
+      "level": 1
+    },
+    {
+      "title": "Definición de las especificaciones del producto",
+      "level": 1
+    },
+    {
+      "title": " Desarrollo de sistemas de diseño",
+      "level": 1
+    },
+    {
+      "title": " Sprints de diseño",
+      "level": 1
+    },
+    {
+      "title": "Pruebas A/B",
+      "level": 1
+    },
+    {
+      "title": "Experiencia con metodologías Kanban, Agile y Lean",
+      "level": 1
+    },
+    {
+      "title": "Fundamentos de codificación. HTML, CSS, JavaScript, SQL",
+      "level": 1
+    }
+  ],
+  "contact": "Contacto"
+}
