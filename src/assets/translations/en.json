@@ -1,12 +1,118 @@
 {
-    "hello": "Hello",
-    "home": "Home",
-    "resume": "Resume",
-    "pokemon": "Pokémon",
-    "greeting": "Hello, I'm [Your Name]. Welcome to my personal website!",
-    "about": "About Me",
-    "experience": "Experience",
-    "education": "Education",
-    "skills": "Skills",
-    "contact": "Contact"
-  }
+  "hello": "Hello",
+  "home": "Home",
+  "resume": "Resume",
+  "pokemon": "Pokémon",
+  "greeting": "Hello, I'm [Your Name]. Welcome to my personal website!",
+  "about": "About Me",
+  "experience-title":"Education & Learning",
+  "skills-title":"Skills",
+  "experience": "Experience",
+  "education": [
+    {
+      "school": "Copenhagen School of Design and Technology",
+      "title": "Master’s in Human-Computer Interaction",
+      "start_date": "2015 ",
+      "end_date": "2016"
+    },
+    {
+      "school": "Copenhagen School of Design and Technology",
+      "title": "Bachelor's of Arts",
+      "start_date": "2011",
+      "end_date": "2015"
+    },
+    {
+      "school": "Copenhagen School of Design and Technology",
+      "title": "Bachelor's of Arts",
+      "start_date": "2011",
+      "end_date": "2015"
+    },
+    {
+      "school": " Design Lab Inc",
+      "title": "Design Leadership Masterclass",
+      "start_date": "Mar 2020",
+      "end_date": ""
+    },
+    {
+      "school": "Trydesignlab.com",
+      "title": "UX: Interaction Design",
+      "start_date": "Dec 2017 ",
+      "end_date": ""
+    },
+    {
+      "school": "Udacity.com, online course by Google",
+      "title": "UX Design Specialization",
+      "start_date": "Aug 2016",
+      "end_date": ""
+    },
+    {
+      "school": " Design Lab Inc.",
+      "title": "Branding fundamentals",
+      "start_date": "Nov 2014",
+      "end_date": ""
+    }
+  ],
+  "skills": [
+    {
+      "title": "Business Analysis",
+       "level": 3
+    },
+    {
+      "title": "UX Research",
+       "level": 1
+    },
+    {
+      "title": "User Testing and Validation",
+       "level": 1
+    },
+    {
+      "title": "Customer Journey Mapping",
+       "level": 1
+    },
+    {
+      "title": "Information Architecture",
+       "level": 1
+    },
+    {
+      "title": "Low- and High- Fidelity Wireframing",
+       "level": 1
+    },
+    {
+      "title": "Prototyping",
+       "level": 1
+    },
+    {
+      "title": "Interaction Design",
+       "level": 1
+    },
+    {
+      "title": "Visual Design",
+       "level": 1
+    },
+    {
+      "title": "Defining Product Specifications",
+       "level": 1
+    },
+    {
+      "title": " Design System Development",
+       "level": 1
+    },
+    {
+      "title": " Design Sprints",
+       "level": 1
+    },
+    {
+      "title": " A/B Testing",
+       "level": 1
+    },
+    {
+      "title": "  Experienced with Kanban, Agile & Lean methodologies",
+       "level": 1
+    },
+    {
+      "title": "Coding fundamentals. HTML, CSS, JavaScript, SQL",
+       "level": 1
+    }
+  ],
+  "contact": "Contact"
+}

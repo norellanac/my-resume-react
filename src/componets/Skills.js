@@ -2,27 +2,37 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import React from 'react'
+import i18n from "../utils/i18n";
 
 export default function Skills() {
   return (
-    <div className='bg-primary'>
-      <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card skills</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <div>
+      <p style={{width:"20rem", fontSize:"15px", fontFamily:"Poppins", textAlign:"left"}}>
+      {i18n.t("skills[0].title")},
+      {i18n.t("skills[1].title")}, 
+      {i18n.t("skills[2].title")}, 
+      {i18n.t("skills[3].title")},
+      <br></br> 
+      {i18n.t("skills[4].title")}, 
+      {i18n.t("skills[5].title")}, 
+      {i18n.t("skills[6].title")}, 
+      {i18n.t("skills[7].title")}, 
+      <br></br>
+      {i18n.t("skills[8].title")}, 
+      {i18n.t("skills[9].title")}, 
+      {i18n.t("skills[10].title")}, 
+      {i18n.t("skills[11].title")}, 
+      {i18n.t("skills[12].title")},
+      <br></br> 
+      {/* dejar espacio */}
+      {i18n.t("skills[13].title")},
+      <br></br> 
+      {/* dejar espacio */}
+      {i18n.t("skills[14].title")}  
+      <br></br>
+      {/* {[...Array(i18n.t("skills[0].level"))].map((e, i) => <span className="busterCards" key={i}>*</span>)} */}
+      </p>
     </div>
-  )
+  
+  );
 }

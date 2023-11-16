@@ -1,26 +1,74 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import i18n from "../utils/i18n";
 
 function Education() {
   return (
-    <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <div>
+      <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+        <Card.Body>
+          <Card.Title style={{color:"#222"}}>{i18n.t("education[0].title")}</Card.Title>
+          <Card.Text style={{color:"#797979",fontFamily:"Prata"}}>
+            -{i18n.t("education[0].school")}, {i18n.t("education[0].start_date")} - {i18n.t("education[0].end_date")}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+        <Card.Body>
+          <Card.Title style={{color:"#222"}}>{i18n.t("education[1].title")}</Card.Title>
+          <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
+            -{i18n.t("education[1].school")}, {i18n.t("education[1].start_date")} - {i18n.t("education[1].end_date")}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+        <Card.Body>
+          <Card.Title style={{color:"#222"}}>{i18n.t("education[2].title")}</Card.Title>
+          <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
+            -{i18n.t("education[2].school")}, {i18n.t("education[1].start_date")} - {i18n.t("education[1].end_date")}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+        <Card.Body>
+          <Card.Title style={{color:"#222"}}>{i18n.t("education[3].title")}</Card.Title>
+          <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
+            -{i18n.t("education[3].school")}, {i18n.t("education[1].start_date")} - {i18n.t("education[1].end_date")}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+        <Card.Body>
+          <Card.Title style={{color:"#222"}}>{i18n.t("education[4].title")}</Card.Title>
+          <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
+            -{i18n.t("education[4].school")}, {i18n.t("education[1].start_date")} - {i18n.t("education[1].end_date")}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+        <Card.Body>
+          <Card.Title style={{color:"#222"}}>{i18n.t("education[5].title")}</Card.Title>
+          <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
+            -{i18n.t("education[5].school")}, {i18n.t("education[1].start_date")} - {i18n.t("education[1].end_date")}
+          </Card.Text> 
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+        <Card.Body>
+          <Card.Title style={{color:"#222"}}>{i18n.t("education[6].title")}</Card.Title>
+          <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}> 
+            -{i18n.t("education[6].school")}, {i18n.t("education[1].start_date")} - {i18n.t("education[1].end_date")}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
- export{Education}
+export { Education }

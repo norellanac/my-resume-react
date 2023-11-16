@@ -22,7 +22,7 @@ function App() {
   };
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         <div>
           <h1>{i18n.t("hello")}</h1>
           <div>
@@ -30,7 +30,7 @@ function App() {
             <button onClick={() => changeLanguage("es")}>Spanish</button>
           </div>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to test.
         </p>
@@ -42,17 +42,22 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
       <Container>
       <Row>
-        <Col>Experencias </Col>
+        <Col> {/*Experencias*/} </Col>
         
-        <Col>Educacion <Education />  </Col>
+        <Col > 
+          <div style={{color:"#1C8EB5",fontSize:"23px", textAlign:"left"}}>{i18n.t("experience-title")}</div>
+          <Education />
+          <div style={{color:"#1C8EB5", fontSize:"23px", textAlign:"left"}}>{i18n.t("skills-title")}</div>
+          <Skills /> 
+        </Col>
 
       </Row>
       
     </Container>
-    </div>
+     </div>
 
   );
 }
