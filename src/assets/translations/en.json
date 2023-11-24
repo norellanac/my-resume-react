@@ -1,0 +1,39 @@
+{
+  "hello": "Hello",
+  "home": "Home",
+  "resume": "Resume",
+  "greeting": "Hello, I'm [Your Name]. Welcome to my personal website!",
+  "about": "About Me",
+  "experience-title": "Work Experience",
+  "workExperience": [
+    {
+      "experience": "Fintef",
+      "title": "Product Designer",
+      "summary": "Designing end-to-end experience for financial products on mobile & web platforms. Working closely with managers, marketing specialists and developers.",
+      "start_date": "OCT 2019 ",
+      "end_date": "Present"
+    },
+    {
+      "experience": "Resume Worded",
+      "title": "UX Designer",
+      "summary": "Rewamped website flows and navigation menus, reducing the frequency of misdirected customer service queries by 30%. Conducted user testing with 10+ participants using UserTesting.com; designed agains findings which reduced bounce rate for primary user flow by 30%.",
+      "start_date": "SEP 2017",
+      "end_date": "SEP 2019"
+    },
+    {
+      "experience": "Growshi",
+      "title": "Associate UX Designer",
+      "summary": "Redesigned company’s homepage and lead generation forms using existing design system; reduced bounce rates by 40% and increased leads by 15%.Designed online customer support center comprising of a self-service knowledge base and interactive chat bot. Coached 15 summer interns.",
+      "start_date": "DEC 2016",
+      "end_date": "AUG 2017"
+    },
+    {
+      "experience": "Growshi",
+      "title": "UX Analyst",
+      "summary": "Managed redesign of internal tracking system in use by 125 employees, resulting in 20+ new features and 25% higher engagement. Worked with product managers to validate design hypothesis by conducting interviews and usability sessions.",
+      "start_date": "MAR 2016",
+      "end_date": "DEC 2016"
+    }
+    
+  ]
+}
