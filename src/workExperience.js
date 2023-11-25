@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import i18n from "./utils/i18n";
 
-function WorkExperience() {
+export default function WorkExperience(){
   return (
     <Row>
       <Col>
@@ -51,4 +51,4 @@ function WorkExperience() {
   );
 }
 
-export {WorkExperience};
+
