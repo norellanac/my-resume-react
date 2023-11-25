@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './App.css';
-import {WorkExperience} from './workExperience';
+import WorkExperience from "./workExperience";
 
 
 
@@ -32,7 +32,7 @@ function App() {
         <Row>
         
           <Col > 
-            <div style={{color:"#1C8EB5",fontSize:"23px", textAlign:"left"}}>{i18n.t("experience-title")}</div>
+            <div style={{color:"#1C8EB5",fontSize:"23px", textAlign:"left", border:'0px'}}>{i18n.t("experience-title")}</div>
             < WorkExperience />
           
           </Col>
