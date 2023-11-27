@@ -8,6 +8,37 @@
   "experience-title": "Educacion & Aprendizaje",
   "skills-title": "Habilidades",
   "experience": "Experiencia",
+  "experience-title": "Experiencia laboral",
+  "workExperience": [
+    {
+      "experience": "Fintef",
+      "title": "Diseñadora de Productos",
+      "summary": "Diseño de experiencias de extremo a extremo para productos financieros en plataformas móviles y web. Trabajando en estrecha colaboración con gerentes, especialistas en marketing y desarrolladores.",
+      "start_date": "OCT 2019 ",
+      "end_date": "Actualidad"
+    },
+    {
+      "experience": "Resume Worded",
+      "title": "Diseñadora UX",
+      "summary": "Se renovaron los flujos del sitio web y los menús de navegación, lo que redujo la frecuencia de consultas de servicio al cliente mal dirigidas en un 30%. Realicé pruebas de usuarios con más de 10 participantes utilizando UserTesting.com; diseñado en contra de los hallazgos que redujeron la tasa de rebote para el flujo de usuarios principales en un 30%.",
+      "start_date": "SEP 2017",
+      "end_date": "SEP 2019"
+    },
+    {
+      "experience": "Growshi",
+      "title": "Diseñadora asociada de ux",
+      "summary": "Rediseñé la página de inicio de la empresa y los formularios de generación de leads utilizando el sistema de diseño existente; Reduje las tasas de rebote en un 40 % y aumentó los clientes potenciales en un 15 %. Diseñé un centro de atención al cliente en línea que consta de una base de conocimientos de autoservicio y un bot de chat interactivo. Entrenó a 15 pasantes de verano.",
+      "start_date": "DIC 2016",
+      "end_date": "AGO 2017"
+    },
+    {
+      "experience": "Growshi",
+      "title": "Analista UX",
+      "summary": "Rediseño gestionado del sistema de seguimiento interno utilizado por 125 empleados, lo que dio como resultado más de 20 funciones nuevas y un 25 % más de participación. Trabajé con gerentes de producto para validar hipótesis de diseño mediante la realización de entrevistas y sesiones de usabilidad.",
+      "start_date": "MAR 2016",
+      "end_date": "DIC 2016"
+    }
+  ],
   "education": [
     {
       "school": "Escuela de Diseño y Tecnología de Copenhague",
