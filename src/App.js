@@ -11,6 +11,7 @@ import Col from 'react-bootstrap/Col';
 import './App.css';
 import { Education } from './componets/Education';
 import Skills from './componets/Skills'
+import WorkExperience from "./componets/WorkExperience";
 
 
 function App() {
@@ -45,17 +46,17 @@ function App() {
       </header> */}
       <Container>
       <Row>
-        <Col> {/*Experencias*/} </Col>
-        
-        <Col > 
+        <Col> <WorkExperience /> </Col>
+
+        <Col >
           <div style={{color:"#1C8EB5",fontSize:"23px", textAlign:"left"}}>{i18n.t("experience-title")}</div>
           <Education />
           <div style={{color:"#1C8EB5", fontSize:"23px", textAlign:"left"}}>{i18n.t("skills-title")}</div>
-          <Skills /> 
+          <Skills />
         </Col>
 
       </Row>
-      
+
     </Container>
      </div>
 
