@@ -9,7 +9,7 @@ export default function WorkExperience() {
     <Row>
       <Col>
         <div>
-          <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+          <Card style={{ textAlign:"left",border:0 }}>
             <Card.Body>
               <Card.Title style={{color:"#222"}}>{i18n.t("workExperience[0].title")}</Card.Title>
               <Card.Text style={{color:"#797979",fontFamily:"Prata"}}>
@@ -20,7 +20,7 @@ export default function WorkExperience() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+          <Card style={{ textAlign:"left",border:0 }}>
             <Card.Body>
               <Card.Title style={{color:"#222"}}>{i18n.t("workExperience[1].title")}</Card.Title>
               <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
@@ -31,7 +31,7 @@ export default function WorkExperience() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+          <Card style={{ textAlign:"left",border:0 }}>
             <Card.Body>
               <Card.Title style={{color:"#222"}}>{i18n.t("workExperience[2].title")}</Card.Title>
               <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
@@ -42,7 +42,7 @@ export default function WorkExperience() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '30rem',textAlign:"left",border:0 }}>
+          <Card style={{ textAlign:"left",border:0 }}>
             <Card.Body>
               <Card.Title style={{color:"#222"}}>{i18n.t("workExperience[3].title")}</Card.Title>
               <Card.Text style={{color:"#797979" ,fontFamily:"Prata"}}>
