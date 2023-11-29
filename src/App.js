@@ -7,11 +7,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
+import "./PHOTO.png";
 import './App.css';
 import { Education } from './componets/Education';
 import Skills from './componets/Skills'
 import WorkExperience from "./componets/WorkExperience";
+import Header from "./componets/Header";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <button onClick={() => changeLanguage("es")}>Spanish</button>
           </div>
         </div>
+        <br/><br/>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to test.
@@ -45,19 +47,27 @@ function App() {
         </a>
       </header> */}
       <Container>
-      <Row>
-        <Col> <WorkExperience /> </Col>
+        <Row>
+          <Col><Header/></Col>  
+        </Row>
+        <br/><br/>
+        <br/><br/>  
+        <Row>
+          <Col>
+           <div style={{color:"#1C8EB5",fontSize:"23px", textAlign:"left"}}>{i18n.t("experience-title")}</div>
+           <WorkExperience />
+          </Col>
 
-        <Col >
-          <div style={{color:"#1C8EB5",fontSize:"23px", textAlign:"left"}}>{i18n.t("experience-title")}</div>
-          <Education />
-          <div style={{color:"#1C8EB5", fontSize:"23px", textAlign:"left"}}>{i18n.t("skills-title")}</div>
-          <Skills />
-        </Col>
+          <Col >
+            <div style={{color:"#1C8EB5",fontSize:"23px", textAlign:"left"}}>{i18n.t("education-title")}</div>
+            <Education />
+            <div style={{color:"#1C8EB5", fontSize:"23px", textAlign:"left"}}>{i18n.t("skills-title")}</div>
+            <Skills />
+          </Col>
 
-      </Row>
+        </Row>
 
-    </Container>
+      </Container>
      </div>
 
   );

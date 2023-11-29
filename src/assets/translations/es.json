@@ -5,10 +5,24 @@
   "pokemon": "Pokémon",
   "greeting": "Hola, soy [Tu Nombre]. ¡Bienvenido a mi sitio web personal!",
   "about": "Sobre mí",
-  "experience-title": "Educacion & Aprendizaje",
+  "education-title": "Educacion & Aprendizaje",
   "skills-title": "Habilidades",
   "experience": "Experiencia",
   "experience-title": "Experiencia laboral",
+  "header":[{
+    "name": "Kate Bishop",
+    "role": "Diseñadora de productos",
+    "summary": "Más de 5 años de experiencia realizando investigaciones de UX y diseñando flujos de usuario interactivos de un extremo a otro. Disfruto trabajar en colaboración con equipos de tecnología, negocios y diseño."
+   },
+   {
+    "email-title":"Correo",
+    "email": "kate.bishop@katedesign.com",
+    "linkedin-title": "LinkedIn",
+    "linkedin": "linkedin.com/in/kate-bishop",
+    "phone-title": "Teléfono",
+    "phone": "+46 98-765 43 21"
+   }
+  ],
   "workExperience": [
     {
       "experience": "Fintef",
