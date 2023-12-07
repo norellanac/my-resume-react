@@ -9,18 +9,30 @@
   "skills-title": "Habilidades",
   "experience": "Experiencia",
   "experience-title": "Experiencia laboral",
+  "contact_info": [
+    {
+      "title": "Email",
+      "data": "kate.bishop@katedesign.com",
+      "prefix": "mailto:",
+      "url": "kate.bishop@katedesign.com"
+    },
+    {
+      "title": "LinkedIn",
+      "data": "linkedin.com/in/kate-bishop",
+      "prefix": "",
+      "url": "https://www.linkedin.com/in/alexis-orellana-3612888b/"
+    },
+    {
+      "title": "Phone",
+      "data": "+46 98-765 43 21",
+      "prefix": "tel:",
+      "url": "+46 98-765 43 21"
+    }
+  ],
   "header":[{
     "name": "Kate Bishop",
     "role": "Diseñadora de productos",
     "summary": "Más de 5 años de experiencia realizando investigaciones de UX y diseñando flujos de usuario interactivos de un extremo a otro. Disfruto trabajar en colaboración con equipos de tecnología, negocios y diseño."
-   },
-   {
-    "email-title":"Correo",
-    "email": "kate.bishop@katedesign.com",
-    "linkedin-title": "LinkedIn",
-    "linkedin": "linkedin.com/in/kate-bishop",
-    "phone-title": "Teléfono",
-    "phone": "+46 98-765 43 21"
    }
   ],
   "workExperience": [
