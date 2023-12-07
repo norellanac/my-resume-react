@@ -35,7 +35,7 @@
     "summary": "Más de 5 años de experiencia realizando investigaciones de UX y diseñando flujos de usuario interactivos de un extremo a otro. Disfruto trabajar en colaboración con equipos de tecnología, negocios y diseño."
    }
   ],
-  "workExperience": [
+  "workExperience_info": [
     {
       "experience": "Fintef",
       "title": "Diseñadora de Productos",
@@ -65,7 +65,7 @@
       "end_date": "DIC 2016"
     }
   ],
-  "education": [
+  "education_info": [
     {
       "school": "Escuela de Diseño y Tecnología de Copenhague",
       "title": "Máster Universitario en Interacción Persona-Ordenador",
@@ -109,7 +109,7 @@
       "end_date": ""
     }
   ],
-  "skills": [
+  "skills_info": [
     {
       "title": "Análisis de Negocios",
       "level": 3
