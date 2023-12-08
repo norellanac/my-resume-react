@@ -6,9 +6,12 @@ import i18n from "../utils/i18n";
 import Photo from "./../PHOTO.png";
 import Image from 'react-bootstrap/Image';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import esData from './../assets/translations/es.json'
 
 
 export default function Header() {
+  const { contact_info } = esData;
+  console.error(contact_info);
   return (
 
     <Row  className='p-5'>
@@ -34,14 +37,12 @@ export default function Header() {
       </Col>
       <Col sm={12} md={4} className='ml-5'>
         <Row className='ml-5'>
-          <Card.Title style={{ color: "#1C8EB5", textAlign: 'left' }}>{i18n.t("header[1].email-title")}</Card.Title>
-          <Card.Text style={{ color: "#222", fontFamily: "Poppins", textAlign: 'left', fontWeight: 'bold', textDecoration: 'underline' }}>{i18n.t("header[1].email")}</Card.Text>
-
-          <Card.Title style={{ color: "#1C8EB5", textAlign: 'left' }}>{i18n.t("header[1].linkedin-title")}</Card.Title>
-          <Card.Text style={{ color: "#222", fontFamily: "Poppins", textAlign: 'left', fontWeight: 'bold', textDecoration: 'underline' }}>{i18n.t("header[1].linkedin")}</Card.Text>
-
-          <Card.Title style={{ color: "#1C8EB5", textAlign: 'left' }}>{i18n.t("header[1].phone-title")}</Card.Title>
-          <Card.Text style={{ color: "#222", fontFamily: "Poppins", textAlign: 'left', fontWeight: 'bold', textDecoration: 'underline' }}>{i18n.t("header[1].phone")}</Card.Text>
+          {contact_info.map((contact, index) => (
+            <div key={index} className='m-1'>
+              <Card.Title style={{ color: "#1C8EB5", textAlign: 'left' }}>{contact.title}</Card.Title>
+              <Card.Text style={{ color: "#222", fontFamily: "Poppins", textAlign: 'left', fontWeight: 'bold', textDecoration: 'underline' }}><a className='nav-link' href={contact.prefix + contact.url} target='_blank'> {contact.data} </a></Card.Text>
+            </div>
+          ))}
         </Row>
       </Col>
     </Row>

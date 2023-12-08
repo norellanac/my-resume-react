@@ -5,160 +5,172 @@
   "pokemon": "Pokémon",
   "greeting": "Hello, I'm [Your Name]. Welcome to my personal website!",
   "about": "About Me",
-  "education-title":"Education & Learning",
-  "skills-title":"Skills",
+  "education-title": "Education & Learning",
+  "skills-title": "Skills",
   "experience": "Experience",
   "experience-title": "Work Experience",
-  "header":[{
-    "name": "Kate Bishop",
-    "role": "Product Designer",
-    "summary": "Over 5 years of professional experience conducting UX research and designing interactive end-to-end user flows. I enjoy working in close collaboration with teams across technology, business and design."
-   },
-   {
-    "email-title":"Email",
-    "email": "kate.bishop@katedesign.com",
-    "linkedin-title": "LinkedIn",
-    "linkedin": "linkedin.com/in/kate-bishop",
-    "phone-title": "Phone",
-    "phone": "+46 98-765 43 21"
-   }
-  ],
-  "workExperience": [
+  "contact_info": [
     {
-      "experience": "Fintef",
-      "title": "Product Designer",
-      "summary": "Designing end-to-end experience for financial products on mobile & web platforms. Working closely with managers, marketing specialists and developers.",
-      "start_date": "OCT 2019 ",
-      "end_date": "Present"
+      "title": "Email",
+      "data": "kate.bishop@katedesign.com",
+      "prefix": "mailto:",
+      "url": "kate.bishop@katedesign.com"
     },
     {
-      "experience": "Resume Worded",
-      "title": "UX Designer",
-      "summary": "Rewamped website flows and navigation menus, reducing the frequency of misdirected customer service queries by 30%. Conducted user testing with 10+ participants using UserTesting.com; designed agains findings which reduced bounce rate for primary user flow by 30%.",
-      "start_date": "SEP 2017",
-      "end_date": "SEP 2019"
+      "title": "LinkedIn",
+      "data": "linkedin.com/in/kate-bishop",
+      "prefix": "",
+      "url": "https://www.linkedin.com/in/alexis-orellana-3612888b/"
     },
     {
-      "experience": "Growshi",
-      "title": "Associate UX Designer",
-      "summary": "Redesigned company’s homepage and lead generation forms using existing design system; reduced bounce rates by 40% and increased leads by 15%.Designed online customer support center comprising of a self-service knowledge base and interactive chat bot. Coached 15 summer interns.",
-      "start_date": "DEC 2016",
-      "end_date": "AUG 2017"
-    },
-    {
-      "experience": "Growshi",
-      "title": "UX Analyst",
-      "summary": "Managed redesign of internal tracking system in use by 125 employees, resulting in 20+ new features and 25% higher engagement. Worked with product managers to validate design hypothesis by conducting interviews and usability sessions.",
-      "start_date": "MAR 2016",
-      "end_date": "DEC 2016"
-    }
-
-  ],
-  "education": [
-    {
-      "school": "Copenhagen School of Design and Technology",
-      "title": "Master’s in Human-Computer Interaction",
-      "start_date": "2015 ",
-      "end_date": "2016"
-    },
-    {
-      "school": "Copenhagen School of Design and Technology",
-      "title": "Bachelor's of Arts",
-      "start_date": "2011",
-      "end_date": "2015"
-    },
-    {
-      "school": "Copenhagen School of Design and Technology",
-      "title": "Bachelor's of Arts",
-      "start_date": "2011",
-      "end_date": "2015"
-    },
-    {
-      "school": " Design Lab Inc",
-      "title": "Design Leadership Masterclass",
-      "start_date": "Mar 2020",
-      "end_date": ""
-    },
-    {
-      "school": "Trydesignlab.com",
-      "title": "UX: Interaction Design",
-      "start_date": "Dec 2017 ",
-      "end_date": ""
-    },
-    {
-      "school": "Udacity.com, online course by Google",
-      "title": "UX Design Specialization",
-      "start_date": "Aug 2016",
-      "end_date": ""
-    },
-    {
-      "school": " Design Lab Inc.",
-      "title": "Branding fundamentals",
-      "start_date": "Nov 2014",
-      "end_date": ""
+      "title": "Phone",
+      "data": "+46 98-765 43 21",
+      "prefix": "tel:",
+      "url": "+46 98-765 43 21"
     }
   ],
-  "skills": [
+  "header": [
     {
-      "title": "Business Analysis",
-       "level": 3
-    },
-    {
-      "title": "UX Research",
-       "level": 1
-    },
-    {
-      "title": "User Testing and Validation",
-       "level": 1
-    },
-    {
-      "title": "Customer Journey Mapping",
-       "level": 1
-    },
-    {
-      "title": "Information Architecture",
-       "level": 1
-    },
-    {
-      "title": "Low- and High- Fidelity Wireframing",
-       "level": 1
-    },
-    {
-      "title": "Prototyping",
-       "level": 1
-    },
-    {
-      "title": "Interaction Design",
-       "level": 1
-    },
-    {
-      "title": "Visual Design",
-       "level": 1
-    },
-    {
-      "title": "Defining Product Specifications",
-       "level": 1
-    },
-    {
-      "title": " Design System Development",
-       "level": 1
-    },
-    {
-      "title": " Design Sprints",
-       "level": 1
-    },
-    {
-      "title": " A/B Testing",
-       "level": 1
-    },
-    {
-      "title": "  Experienced with Kanban, Agile & Lean methodologies",
-       "level": 1
-    },
-    {
-      "title": "Coding fundamentals. HTML, CSS, JavaScript, SQL",
-       "level": 1
+      "name": "Kate Bishop",
+      "role": "Product Designer",
+      "summary": "Over 5 years of professional experience conducting UX research and designing interactive end-to-end user flows. I enjoy working in close collaboration with teams across technology, business and design."
     }
-  ],
-  "contact": "Contact"
+],
+"workExperience": [
+  {
+    "experience": "Fintef",
+    "title": "Product Designer",
+    "summary": "Designing end-to-end experience for financial products on mobile & web platforms. Working closely with managers, marketing specialists and developers.",
+    "start_date": "OCT 2019 ",
+    "end_date": "Present"
+  },
+  {
+    "experience": "Resume Worded",
+    "title": "UX Designer",
+    "summary": "Rewamped website flows and navigation menus, reducing the frequency of misdirected customer service queries by 30%. Conducted user testing with 10+ participants using UserTesting.com; designed agains findings which reduced bounce rate for primary user flow by 30%.",
+    "start_date": "SEP 2017",
+    "end_date": "SEP 2019"
+  },
+  {
+    "experience": "Growshi",
+    "title": "Associate UX Designer",
+    "summary": "Redesigned company’s homepage and lead generation forms using existing design system; reduced bounce rates by 40% and increased leads by 15%.Designed online customer support center comprising of a self-service knowledge base and interactive chat bot. Coached 15 summer interns.",
+    "start_date": "DEC 2016",
+    "end_date": "AUG 2017"
+  },
+  {
+    "experience": "Growshi",
+    "title": "UX Analyst",
+    "summary": "Managed redesign of internal tracking system in use by 125 employees, resulting in 20+ new features and 25% higher engagement. Worked with product managers to validate design hypothesis by conducting interviews and usability sessions.",
+    "start_date": "MAR 2016",
+    "end_date": "DEC 2016"
+  }
+],
+"education": [
+  {
+    "school": "Copenhagen School of Design and Technology",
+    "title": "Master’s in Human-Computer Interaction",
+    "start_date": "2015 ",
+    "end_date": "2016"
+  },
+  {
+    "school": "Copenhagen School of Design and Technology",
+    "title": "Bachelor's of Arts",
+    "start_date": "2011",
+    "end_date": "2015"
+  },
+  {
+    "school": "Copenhagen School of Design and Technology",
+    "title": "Bachelor's of Arts",
+    "start_date": "2011",
+    "end_date": "2015"
+  },
+  {
+    "school": " Design Lab Inc",
+    "title": "Design Leadership Masterclass",
+    "start_date": "Mar 2020",
+    "end_date": ""
+  },
+  {
+    "school": "Trydesignlab.com",
+    "title": "UX: Interaction Design",
+    "start_date": "Dec 2017 ",
+    "end_date": ""
+  },
+  {
+    "school": "Udacity.com, online course by Google",
+    "title": "UX Design Specialization",
+    "start_date": "Aug 2016",
+    "end_date": ""
+  },
+  {
+    "school": " Design Lab Inc.",
+    "title": "Branding fundamentals",
+    "start_date": "Nov 2014",
+    "end_date": ""
+  }
+],
+"skills": [
+  {
+    "title": "Business Analysis",
+    "level": 3
+  },
+  {
+    "title": "UX Research",
+    "level": 1
+  },
+  {
+    "title": "User Testing and Validation",
+    "level": 1
+  },
+  {
+    "title": "Customer Journey Mapping",
+    "level": 1
+  },
+  {
+    "title": "Information Architecture",
+    "level": 1
+  },
+  {
+    "title": "Low- and High- Fidelity Wireframing",
+    "level": 1
+  },
+  {
+    "title": "Prototyping",
+    "level": 1
+  },
+  {
+    "title": "Interaction Design",
+    "level": 1
+  },
+  {
+    "title": "Visual Design",
+    "level": 1
+  },
+  {
+    "title": "Defining Product Specifications",
+    "level": 1
+  },
+  {
+    "title": " Design System Development",
+    "level": 1
+  },
+  {
+    "title": " Design Sprints",
+    "level": 1
+  },
+  {
+    "title": " A/B Testing",
+    "level": 1
+  },
+  {
+    "title": "  Experienced with Kanban, Agile & Lean methodologies",
+    "level": 1
+  },
+  {
+    "title": "Coding fundamentals. HTML, CSS, JavaScript, SQL",
+    "level": 1
+  }
+],
+"contact": "Contact"
 }
