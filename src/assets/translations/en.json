@@ -12,164 +12,88 @@
   "contact_info": [
     {
       "title": "Email",
-      "data": "kate.bishop@katedesign.com",
+      "data": "aforellanar@gmail.com",
       "prefix": "mailto:",
-      "url": "kate.bishop@katedesign.com"
+      "url": "aforellanar@gmail.com"
     },
     {
       "title": "LinkedIn",
-      "data": "linkedin.com/in/kate-bishop",
+      "data": "https://www.linkedin.com/in/jonhatan-orellana",
       "prefix": "",
-      "url": "https://www.linkedin.com/in/alexis-orellana-3612888b/"
+      "url": "https://www.linkedin.com/in/jonhatan-orellana-15605b252/"
     },
     {
       "title": "Phone",
-      "data": "+46 98-765 43 21",
+      "data": "+502 5153-0930",
       "prefix": "tel:",
-      "url": "+46 98-765 43 21"
+      "url": "+502 5153-0930"
     }
   ],
   "header": [
     {
-      "name": "Kate Bishop",
-      "role": "Product Designer",
-      "summary": "Over 5 years of professional experience conducting UX research and designing interactive end-to-end user flows. I enjoy working in close collaboration with teams across technology, business and design."
+      "name": "Jonhatan Orellana",
+      "role": "Junior developer internship",
+      "summary": "The field where I am currently working is about the development of web pages with languages such as Html, Css, javascript, php, xampp, mySql, git, hub, pyton, data science"
     }
 ],
-"workExperience": [
+"workExperience_info": [
   {
-    "experience": "Fintef",
-    "title": "Product Designer",
-    "summary": "Designing end-to-end experience for financial products on mobile & web platforms. Working closely with managers, marketing specialists and developers.",
+    "experience": "AlphaPoint",
+    "title": "Junior developer internship",
+    "summary": "Creation of websites with Java script, Html, css and React library; implementation of code version control, task management in Jira, management of css libraries, layout of websites converting figma elements into web elements",
     "start_date": "OCT 2019 ",
     "end_date": "Present"
   },
   {
-    "experience": "Resume Worded",
-    "title": "UX Designer",
-    "summary": "Rewamped website flows and navigation menus, reducing the frequency of misdirected customer service queries by 30%. Conducted user testing with 10+ participants using UserTesting.com; designed agains findings which reduced bounce rate for primary user flow by 30%.",
-    "start_date": "SEP 2017",
-    "end_date": "SEP 2019"
-  },
-  {
-    "experience": "Growshi",
-    "title": "Associate UX Designer",
-    "summary": "Redesigned company’s homepage and lead generation forms using existing design system; reduced bounce rates by 40% and increased leads by 15%.Designed online customer support center comprising of a self-service knowledge base and interactive chat bot. Coached 15 summer interns.",
-    "start_date": "DEC 2016",
-    "end_date": "AUG 2017"
-  },
-  {
-    "experience": "Growshi",
-    "title": "UX Analyst",
-    "summary": "Managed redesign of internal tracking system in use by 125 employees, resulting in 20+ new features and 25% higher engagement. Worked with product managers to validate design hypothesis by conducting interviews and usability sessions.",
-    "start_date": "MAR 2016",
-    "end_date": "DEC 2016"
+    "experience": "-Platzi School of Development and Technology",
+    "title": "Curso Profecional de Git Y Git Hub",
+    "summary": "Creacion de sitios web con Java script, Html,css y libreria de React; implementacion de control de versiones de codigo, gestion de tareas en Jira,manejo de librerias de css,maquetacion de sitios web connvirtiendo elementosde figma en elementos web",
+    "start_date": "OCT 2023 ",
+    "end_date": "OCT 2023"
   }
 ],
-"education": [
+"education_info": [
   {
-    "school": "Copenhagen School of Design and Technology",
-    "title": "Master’s in Human-Computer Interaction",
-    "start_date": "2015 ",
-    "end_date": "2016"
-  },
-  {
-    "school": "Copenhagen School of Design and Technology",
-    "title": "Bachelor's of Arts",
-    "start_date": "2011",
-    "end_date": "2015"
-  },
-  {
-    "school": "Copenhagen School of Design and Technology",
-    "title": "Bachelor's of Arts",
-    "start_date": "2011",
-    "end_date": "2015"
-  },
-  {
-    "school": " Design Lab Inc",
-    "title": "Design Leadership Masterclass",
-    "start_date": "Mar 2020",
-    "end_date": ""
-  },
-  {
-    "school": "Trydesignlab.com",
-    "title": "UX: Interaction Design",
-    "start_date": "Dec 2017 ",
-    "end_date": ""
-  },
-  {
-    "school": "Udacity.com, online course by Google",
-    "title": "UX Design Specialization",
-    "start_date": "Aug 2016",
-    "end_date": ""
-  },
-  {
-    "school": " Design Lab Inc.",
-    "title": "Branding fundamentals",
-    "start_date": "Nov 2014",
-    "end_date": ""
+    "school": "-Platzi School of Development and Technology",
+    "title": "Basic Programming Course",
+    "start_date": " ",
+    "end_date": "NOV 2023"
   }
+  
+  
 ],
-"skills": [
+"skills_info": [
   {
-    "title": "Business Analysis",
-    "level": 3
+    "title": "Java Script",
+     "level": 3
   },
   {
-    "title": "UX Research",
-    "level": 1
+    "title": "HTML",
+     "level": 5
   },
   {
-    "title": "User Testing and Validation",
-    "level": 1
+    "title": "Css",
+     "level": 3
   },
   {
-    "title": "Customer Journey Mapping",
-    "level": 1
+    "title": "React",
+     "level": 3
   },
   {
-    "title": "Information Architecture",
-    "level": 1
+    "title": "PHP",
+     "level": 4
   },
   {
-    "title": "Low- and High- Fidelity Wireframing",
-    "level": 1
+    "title": "PHYTON",
+     "level": 2
   },
   {
-    "title": "Prototyping",
-    "level": 1
-  },
-  {
-    "title": "Interaction Design",
-    "level": 1
-  },
-  {
-    "title": "Visual Design",
-    "level": 1
-  },
-  {
-    "title": "Defining Product Specifications",
-    "level": 1
-  },
-  {
-    "title": " Design System Development",
-    "level": 1
-  },
-  {
-    "title": " Design Sprints",
-    "level": 1
-  },
-  {
-    "title": " A/B Testing",
-    "level": 1
-  },
-  {
-    "title": "  Experienced with Kanban, Agile & Lean methodologies",
-    "level": 1
+    "title": "SQL",
+     "level": 4
   },
   {
     "title": "Coding fundamentals. HTML, CSS, JavaScript, SQL",
-    "level": 1
+     "level": 1
   }
 ],
 "contact": "Contact"

@@ -39,8 +39,8 @@ export default function Header() {
         <Row className='ml-5'>
           {contact_info.map((contact, index) => (
             <div key={index} className='m-1'>
-              <Card.Title style={{ color: "#1C8EB5", textAlign: 'left' }}>{contact.title}</Card.Title>
-              <Card.Text style={{ color: "#222", fontFamily: "Poppins", textAlign: 'left', fontWeight: 'bold', textDecoration: 'underline' }}><a className='nav-link' href={contact.prefix + contact.url} target='_blank'> {contact.data} </a></Card.Text>
+              <Card.Title style={{ color: "#1C8EB5", textAlign: 'left' }}>{i18n.t("contact_info["+index+"].title")}</Card.Title>
+              <Card.Text style={{ color: "#222", fontFamily: "Poppins", textAlign: 'left', fontWeight: 'bold', textDecoration: 'underline' }}><a className='nav-link' href={i18n.t("contact_info["+index+"].prefix ")+ i18n.t("contact_info["+index+"].url")} target='_blank'> {i18n.t("contact_info["+index+"].data")} </a></Card.Text>
             </div>
           ))}
         </Row>
