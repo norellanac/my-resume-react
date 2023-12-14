@@ -1,0 +1,97 @@
+{
+  "hello": "Hola",
+  "home": "Inicio",
+  "resume": "Currículum",
+  "pokemon": "Pokémon",
+  "greeting": "Hola, soy [Tu Nombre]. ¡Bienvenido a mi sitio web personal!",
+  "about": "Sobre mí",
+  "education-title": "Educacion & Aprendizaje",
+  "skills-title": "Habilidades",
+  "experience": "Experiencia",
+  "experience-title": "Experiencia laboral",
+  "contact_info": [
+    {
+      "title": "Email",
+      "data": "aforellanar@gmail.com ",
+      "prefix": "mailto:",
+      "url": "aforellanar@gmail.com"
+    },
+    {
+      "title": "LinkedIn",
+      "data": "https://www.linkedin.com/in/jonhatan-orellana",
+      "prefix": "",
+      "url": "https://www.linkedin.com/in/jonhatan-orellana-15605b252/"
+    },
+    {
+      "title": "Phone",
+      "data": "+502 5153-0930",
+      "prefix": "tel:",
+      "url": "+502 5153-0930"
+    }
+  ],
+  "header":[{
+    "name": "Jonhatan Orellana",
+    "role": "Junior developer internship",
+    "summary": "El campo donde actualmente estoy es sobre el desarrollo de paginas web con lenguajes como Html,Css,javascript ,php , xampp ,mySql git , git hub,pyton de data science."
+   }
+  ],
+  "workExperience_info": [
+    {
+      "experience": "Fintef",
+      "title": " AlphaPoint ",
+      "summary": "Diseño de experiencias de extremo a extremo para productos financieros en plataformas móviles y web. Trabajando en estrecha colaboración con gerentes, especialistas en marketing y desarrolladores.",
+      "start_date": "OCT 2023 ",
+      "end_date": "Actualidad"
+    },
+    {
+      "experience": "-Platzi School of Development and Technology",
+      "title": "Curso Profecional de Git Y Git Hub",
+      "summary": "Creacion de sitios web con Java script, Html,css y libreria de React; implementacion de control de versiones de codigo, gestion de tareas en Jira,manejo de librerias de css,maquetacion de sitios web connvirtiendo elementosde figma en elementos web",
+      "start_date": "OCT 2023 ",
+      "end_date": "OCT 2023"
+    }
+  ],
+  "education_info": [
+    {
+      "school": "Escuela de Desarrolo y Tecnología de platzi",
+      "title": "Curso de programacion basica",
+      "start_date": "2015 ",
+      "end_date": "nov 2023"
+    }
+  ],
+  "skills_info": [
+    {
+      "title": "JavaScript ",
+      "level": 3
+    },
+    {
+      "title": "HTML",
+      "level": 5
+    },
+    {
+      "title": "Css",
+      "level": 3
+    },
+    {
+      "title": "React",
+      "level": 3
+    },
+    {
+      "title": "PHP",
+      "level": 4
+    },
+    {
+      "title": "PHYTON",
+      "level": 2
+    },
+    {
+      "title": "SQL",
+      "level": 4
+    },
+    {
+      "title": "Fundamentos de codificación. HTML, CSS, JavaScript, SQL",
+      "level": 1
+    }
+  ],
+  "contact": "Contacto"
+}
