@@ -12,159 +12,81 @@
   "contact_info": [
     {
       "title": "Email",
-      "data": "kate.bishop@katedesign.com",
+      "data": "aforellanar@gmail.com ",
       "prefix": "mailto:",
-      "url": "kate.bishop@katedesign.com"
+      "url": "aforellanar@gmail.com"
     },
     {
       "title": "LinkedIn",
-      "data": "linkedin.com/in/kate-bishop",
+      "data": "https://www.linkedin.com/in/jonhatan-orellana",
       "prefix": "",
-      "url": "https://www.linkedin.com/in/alexis-orellana-3612888b/"
+      "url": "https://www.linkedin.com/in/jonhatan-orellana-15605b252/"
     },
     {
       "title": "Phone",
-      "data": "+46 98-765 43 21",
+      "data": "+502 5153-0930",
       "prefix": "tel:",
-      "url": "+46 98-765 43 21"
+      "url": "+502 5153-0930"
     }
   ],
   "header":[{
-    "name": "Kate Bishop",
-    "role": "Diseñadora de productos",
-    "summary": "Más de 5 años de experiencia realizando investigaciones de UX y diseñando flujos de usuario interactivos de un extremo a otro. Disfruto trabajar en colaboración con equipos de tecnología, negocios y diseño."
+    "name": "Jonhatan Orellana",
+    "role": "Junior developer internship",
+    "summary": "El campo donde actualmente estoy es sobre el desarrollo de paginas web con lenguajes como Html,Css,javascript ,php , xampp ,mySql git , git hub,pyton de data science."
    }
   ],
   "workExperience_info": [
     {
       "experience": "Fintef",
-      "title": "Diseñadora de Productos",
+      "title": " AlphaPoint ",
       "summary": "Diseño de experiencias de extremo a extremo para productos financieros en plataformas móviles y web. Trabajando en estrecha colaboración con gerentes, especialistas en marketing y desarrolladores.",
-      "start_date": "OCT 2019 ",
+      "start_date": "OCT 2023 ",
       "end_date": "Actualidad"
     },
     {
-      "experience": "Resume Worded",
-      "title": "Diseñadora UX",
-      "summary": "Se renovaron los flujos del sitio web y los menús de navegación, lo que redujo la frecuencia de consultas de servicio al cliente mal dirigidas en un 30%. Realicé pruebas de usuarios con más de 10 participantes utilizando UserTesting.com; diseñado en contra de los hallazgos que redujeron la tasa de rebote para el flujo de usuarios principales en un 30%.",
-      "start_date": "SEP 2017",
-      "end_date": "SEP 2019"
-    },
-    {
-      "experience": "Growshi",
-      "title": "Diseñadora asociada de ux",
-      "summary": "Rediseñé la página de inicio de la empresa y los formularios de generación de leads utilizando el sistema de diseño existente; Reduje las tasas de rebote en un 40 % y aumentó los clientes potenciales en un 15 %. Diseñé un centro de atención al cliente en línea que consta de una base de conocimientos de autoservicio y un bot de chat interactivo. Entrenó a 15 pasantes de verano.",
-      "start_date": "DIC 2016",
-      "end_date": "AGO 2017"
-    },
-    {
-      "experience": "Growshi",
-      "title": "Analista UX",
-      "summary": "Rediseño gestionado del sistema de seguimiento interno utilizado por 125 empleados, lo que dio como resultado más de 20 funciones nuevas y un 25 % más de participación. Trabajé con gerentes de producto para validar hipótesis de diseño mediante la realización de entrevistas y sesiones de usabilidad.",
-      "start_date": "MAR 2016",
-      "end_date": "DIC 2016"
+      "experience": "-Platzi School of Development and Technology",
+      "title": "Curso Profecional de Git Y Git Hub",
+      "summary": "Creacion de sitios web con Java script, Html,css y libreria de React; implementacion de control de versiones de codigo, gestion de tareas en Jira,manejo de librerias de css,maquetacion de sitios web connvirtiendo elementosde figma en elementos web",
+      "start_date": "OCT 2023 ",
+      "end_date": "OCT 2023"
     }
   ],
   "education_info": [
     {
-      "school": "Escuela de Diseño y Tecnología de Copenhague",
-      "title": "Máster Universitario en Interacción Persona-Ordenador",
+      "school": "Escuela de Desarrolo y Tecnología de platzi",
+      "title": "Curso de programacion basica",
       "start_date": "2015 ",
-      "end_date": "2016"
-    },
-    {
-      "school": "Escuela de Diseño y Tecnología de Copenhague",
-      "title": "Licenciatura en Artes",
-      "start_date": "2011",
-      "end_date": "2015"
-    },
-    {
-      "school": "Escuela de Diseño y Tecnología de Copenhague",
-      "title": "Licenciatura en Artes",
-      "start_date": "2011",
-      "end_date": "2015"
-    },
-    {
-      "school": "Laboratorio de Diseño Inc",
-      "title": "Clase magistral de liderazgo en diseño",
-      "start_date": "Mar 2020",
-      "end_date": ""
-    },
-    {
-      "school": "Trydesignlab.com",
-      "title": "UX: Diseño de Interacción",
-      "start_date": "Dec 2017 ",
-      "end_date": ""
-    },
-    {
-      "school": "Udacity.com, curso online de Google",
-      "title": "Especialización en Diseño UX",
-      "start_date": "Aug 2016",
-      "end_date": ""
-    },
-    {
-      "school": "Laboratorio de Diseño Inc.",
-      "title": "Fundamentos de la marca",
-      "start_date": "Nov 2014",
-      "end_date": ""
+      "end_date": "nov 2023"
     }
   ],
   "skills_info": [
     {
-      "title": "Análisis de Negocios",
+      "title": "JavaScript ",
       "level": 3
     },
     {
-      "title": "Investigación de UX",
-      "level": 1
+      "title": "HTML",
+      "level": 5
     },
     {
-      "title": "Pruebas y validación de usuarios",
-      "level": 1
+      "title": "Css",
+      "level": 3
     },
     {
-      "title": "Mapeo del recorrido del cliente",
-      "level": 1
+      "title": "React",
+      "level": 3
     },
     {
-      "title": "Arquitectura de la Información",
-      "level": 1
+      "title": "PHP",
+      "level": 4
     },
     {
-      "title": "Wireframing de baja y alta fidelidad",
-      "level": 1
+      "title": "PHYTON",
+      "level": 2
     },
     {
-      "title": "Prototipado",
-      "level": 1
-    },
-    {
-      "title": "Diseño de interacción",
-      "level": 1
-    },
-    {
-      "title": "Diseño Visual",
-      "level": 1
-    },
-    {
-      "title": "Definición de las especificaciones del producto",
-      "level": 1
-    },
-    {
-      "title": " Desarrollo de sistemas de diseño",
-      "level": 1
-    },
-    {
-      "title": " Sprints de diseño",
-      "level": 1
-    },
-    {
-      "title": "Pruebas A/B",
-      "level": 1
-    },
-    {
-      "title": "Experiencia con metodologías Kanban, Agile y Lean",
-      "level": 1
+      "title": "SQL",
+      "level": 4
     },
     {
       "title": "Fundamentos de codificación. HTML, CSS, JavaScript, SQL",
